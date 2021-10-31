@@ -1,0 +1,25 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "<h1>Project: Restaurant Page for Javascript Course TOP</h1><br> <h2>Goals</h2><br> <p>Render the page dynamically using only Javascript</p>",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sakurai-Kei/restaurant-page.git"
+  },
+  "author": "Sakurai-Kei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sakurai-Kei/restaurant-page/issues"
+  },
+  "homepage": "https://github.com/Sakurai-Kei/restaurant-page#readme",
+  "devDependencies": {
+    "webpack": "^5.61.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
