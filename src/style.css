@@ -65,10 +65,10 @@ body {
 
 .modal {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     height: 50vh;
-    width: 25vw;
+    width: 20vw;
     border-radius: 25px;
     background-color: rgb(255, 166, 0);
     color: #181818;
@@ -77,6 +77,14 @@ body {
 
 .modal:hover {
     border: 4px solid darkslateblue;
+}
+
+.img {
+    margin-top: 15vh;
+}
+
+.imgDescription {
+    margin-top: 5vh;
 }
 
 #footerContainer {
