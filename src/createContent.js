@@ -1,4 +1,5 @@
 import {createHome} from './createHome.js';
+import {createMenu} from './createMenu.js';
 
 function clearContentContainer() {
     const contentContainer = document.getElementById('contentContainer');
@@ -8,15 +9,18 @@ function clearContentContainer() {
 function createContent(tab) {
     switch(tab){
         case "Home":
+            clearContentContainer();
             createHome();
             break;
         case "Menu":
+            clearContentContainer();
             createMenu();
             break;
         case "About":
+            clearContentContainer();
             createAbout();
             break;
     }
 }
 
-export default {clearContentContainer, createContent};
+export {createContent};
