@@ -1,5 +1,6 @@
 import {createHome} from './createHome.js';
 import {createMenu} from './createMenu.js';
+import {createAbout} from './createAbout.js'
 
 function clearContentContainer() {
     const contentContainer = document.getElementById('contentContainer');
