@@ -1,0 +1,9 @@
+homePicture1: Logo Design by JanaKah for Local Leaves
+homePicture2: Picture of Sébastien Bras
+homePicture3: Vector Stock Photo by Anatolir
+menuPicture1: Picture from muchbutter.com
+menuPicture2: Rabo del Torrow from unileverfoodsolutions
+menuPicture3: Poke Bowl from poketheory.com
+menuPicture4: Lobster Tortellini from article written by Willow Arlen
+menuPicture5: Baked Alaska with Cherry Garcia Ice Cream and Cherries Jubilee Topping by Kimberly Vardeman
+menuPicture6: Tiramisu with blueberries and raspberries by Alexis Fam

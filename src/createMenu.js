@@ -2,10 +2,12 @@ import menuPicture1 from './menuPicture1.png';
 import menuPicture2 from './menuPicture2.png';
 import menuPicture3 from './menuPicture3.png';
 import menuPicture4 from './menuPicture4.png';
+import menuPicture5 from './menuPicture5.jpg';
+import menuPicture6 from './menuPicture6.jpg';
 
 function createMenu() {
     let menuPictureCollection = [menuPicture1, menuPicture2, menuPicture3, 
-    menuPicture4, 'menuPicture5', 'menuPicture6'];
+    menuPicture4, menuPicture5, menuPicture6];
     const foodDescription1 = "Smoked beef spaghetti carbonara! With Chef Mike's\
     special ingredients, the carbonara is sure to excite your taste buds!";
     const foodDescription2 = "The Rabo del Torro, a well-known stew from spain!\
@@ -17,9 +19,15 @@ function createMenu() {
     meat that is cooked!";
     const foodDescription4 = "Chef Mike's take on Lobster Tortellini \
     opens up your world of tastes! Blending in his hometown flavour into \
-    the cuisine, Chef Mike has imparted a proud legacy for his home"
+    the cuisine, Chef Mike has imparted a proud legacy for his home";
+    const foodDescription5 = "Baked Alaska with Cherry Garcia Ice Cream and\
+    Cherries Jubilee Topping. If you are looking for a dessert, then look no more!\
+    Now with 10% Discount! Time-Limited!";
+    const foodDescription6 = "Classic Tiramisu dessert with blueberries\
+    and raspberries. Free if it's your birthday (proof required)!";
+
     let foodDescriptionCollection = [foodDescription1, foodDescription2,
-        foodDescription3, foodDescription4, 'Five', 'Six'];
+        foodDescription3, foodDescription4, foodDescription5, foodDescription6];
     let k = 0;
 
     const contentContainer = document.getElementById('contentContainer');
