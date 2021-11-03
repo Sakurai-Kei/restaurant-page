@@ -15,19 +15,13 @@ function createHome() {
     for(let i = 1; i <= 3; i++){
         const createModal = document.createElement('div');
         createModal.classList.add('modal');
-        // Actual code for image
+        
         const picture = new Image(); 
         picture.src = homePictureCollection[i-1];
         picture.classList.add('img');
 
         createModal.appendChild(picture);
-        // Mock Code for Image
-        // const picture = document.createElement('div');
-        // picture.classList.add('img');
-        // picture.textContent = homePictureCollection[i-1];
         
-        // createModal.appendChild(picture);
-        // Mock End
         const imgDescription = document.createElement('div');
         imgDescription.classList.add('imgDescription');
         imgDescription.textContent = homeDescription[i-1];

@@ -47,7 +47,7 @@ function createMenu() {
             const foodDescription = document.createElement('div');
             foodDescription.textContent = foodDescriptionCollection[k];
             createFood.appendChild(foodDescription);
-            // Actual code for picture
+            
             const picture = new Image(); 
             picture.src = menuPictureCollection[k];
             picture.classList.add('img');

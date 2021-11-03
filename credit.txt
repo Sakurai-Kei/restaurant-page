@@ -7,3 +7,6 @@ menuPicture3: Poke Bowl from poketheory.com
 menuPicture4: Lobster Tortellini from article written by Willow Arlen
 menuPicture5: Baked Alaska with Cherry Garcia Ice Cream and Cherries Jubilee Topping by Kimberly Vardeman
 menuPicture6: Tiramisu with blueberries and raspberries by Alexis Fam
+aboutPicture1: Taken from WHO Page, Healthy Diet
+aboutPicture2: By Google Inc. , SVG by Premeditated of commons.wikipedia.org
+aboutPicture3: No credit found. If you are the owner or recognise this, you can inform me so I am able to credit them properly.
